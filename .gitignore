@@ -1,0 +1,30 @@
+# Build directories
+build/
+cmake-build-*/
+ 
+# Compiled object files & binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+ 
+# IDE-Project files
+.idea/
+ 
+# Mac & Windows typical data
+.DS_Store
+Thumbs.db
+ 
+# Logs, databases, temporary data
+*.log
+*.db
+ 
+# other
+*.swp
+*.pdb
+*.ilk
