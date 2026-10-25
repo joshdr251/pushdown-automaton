@@ -3,5 +3,5 @@ project(pushdown_automaton)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(pushdown_automaton det_pushdown_automaton.cpp
-        nondet_pushdown_automaton.cpp)
+add_executable(det_pushdown_automaton det_pushdown_automaton.cpp)
+add_executable(nondet_pushdown_automaton nondet_pushdown_automaton.cpp)
